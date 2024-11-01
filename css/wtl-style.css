@@ -1,0 +1,46 @@
+
+/*
+* Styles of WP Tech Lookup
+*/
+
+
+.wtl-main h2.hndle.ui-sortable-handle {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+.postbox-container {
+    width: 100%;
+}
+span.status  {
+    width: 150px;
+    height: 20px;
+    float: left;
+}
+
+.wtl-status-ok span.status {
+    background: green;
+}
+.wtl-status-warning span.status {
+    background: yellow;
+}
+
+
+.cron-schedules > div {
+    float: none;
+    width: 100%;
+    line-height: 25px;
+}
+.cron-schedules > div strong {
+    float: left;
+    padding: 0 15px 0 0;
+    width: 100px;
+}
+.cron-schedules {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    float: none;
+    width: 100%;
+}
